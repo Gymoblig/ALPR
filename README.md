@@ -1,6 +1,6 @@
 # Cvičenia z Algoritmizácie a Programovania
 
-Vitajte v repozitári cvičení z Algoritmizácie a Programovania, ktoré sú vedené profesorom Grmanom. Tento repozitár obsahuje materiály a riešenia úloh pre cvičenia v jazyku C (samozrejme v mojom prevedení :P).
+Vitajte v repozitári cvičení z Algoritmizácie a Programovania, ktoré sú vedené **Mgr. Ján Grman, PhD.**. Tento repozitár obsahuje materiály a riešenia úloh pre cvičenia v jazyku C (samozrejme v mojom prevedení :P).
 
 ## Obsah
 
