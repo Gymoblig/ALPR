@@ -18,9 +18,9 @@ Tento repozitár je určený pre študentov, ktorí navštevujú cvičenia z Alg
 
 Repositár je štruktúrovaný nasledovne:
 
-- `príklady/`: Tento adresár obsahuje príklady kódov a zadania úloh zo cvičení.
-- `riešenia/`: V tomto adresári nájdete riešenia úloh a príkladov kódov.
-- `materiály/`: Ak sú k dispozícii, materiály, prezentácie alebo články, ktoré súvisia s cvičeniami, budú tu.
+- `teoria/`: Tento adresár obsahuje príklady kódov a zadania úloh zo cvičení.
+- `cvicenia/`: V tomto adresári nájdete riešenia úloh a príkladov kódov.
+- `subory/`: Ak sú k dispozícii, materiály, prezentácie alebo články, ktoré súvisia s cvičeniami, budú tu.
 - `README.md`: Tento súbor, ktorý teraz čítate, obsahuje informácie o repozitári a inštrukcie.
 
 ## Ako začať
@@ -30,4 +30,4 @@ Ak ste študentom na cvičeniach a chcete začať pracovať s týmito materiálm
 1. Sklonujte si tento repozitár na svoj počítač:
 
    ```bash
-   git clone https://github.com/vas-nazov-repozitara.git
+   git clone https://github.com/Gymoblig/ALPR.git
