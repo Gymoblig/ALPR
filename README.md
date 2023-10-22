@@ -27,7 +27,7 @@ Repositár je štruktúrovaný nasledovne:
 
 Ak ste študentom na cvičeniach a chcete začať pracovať s týmito materiálmi, môžete postupovať nasledovne:
 
-1. Sklonujte si tento repozitár na svoj počítač:
+Sklonujte si tento repozitár na svoj počítač:
 
    ```bash
    git clone https://github.com/Gymoblig/ALPR.git
