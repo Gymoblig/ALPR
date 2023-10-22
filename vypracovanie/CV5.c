@@ -8,7 +8,7 @@ void clearbuffer()
 
 void cv1() {
     printf("CVICENIE 1\n");
-    FILE *subor = fopen("subory/vystup.txt", "w");
+    FILE *subor = fopen("../subory/vystup.txt", "w");
     if (subor == NULL) {
         printf("Nepodarilo sa otvorit subor.\n");
         return;
@@ -43,7 +43,7 @@ void cv1() {
 void cv2()
 {
     printf("CVICENIE 2\n");
-    FILE *subor = fopen("subory/cisla1.txt", "r");
+    FILE *subor = fopen("../subory/cisla1.txt", "r");
     if (subor == NULL) {
         printf("Nepodarilo sa otvorit subor cisla.txt.\n");
         return;
@@ -74,7 +74,7 @@ void cv3()
     float cislo;
     printf("Zadaj cislo: ");
     scanf("%f",&cislo);
-    FILE *subor = fopen("subory/nasobky.txt", "w");
+    FILE *subor = fopen("../subory/nasobky.txt", "w");
     if (subor == NULL) {
         printf("Nepodarilo sa otvorit subor.\n");
         return;
@@ -88,7 +88,7 @@ void cv3()
 void cv4()
 {
     printf("CVICENIE 4\n");
-    FILE *vstupSubor = fopen("subory/znak.txt", "r");
+    FILE *vstupSubor = fopen("../subory/znak.txt", "r");
     if (vstupSubor == NULL) {
         printf("Nepodarilo sa otvorit subor ZNAK.TXT\n");
         return 1;
@@ -97,7 +97,7 @@ void cv4()
     int znak = getchar();
 
     if (znak == 's') {
-        FILE *vystupSubor = fopen("subory/novy.txt", "w");
+        FILE *vystupSubor = fopen("../subory/novy.txt", "w");
         if (vystupSubor == NULL) {
             printf("Nepodarilo sa otvorit subor NOVY.TXT\n");
             return 1;
@@ -122,8 +122,8 @@ void cv4()
 
 void cv5() {
     printf("CVICENIE 5\n");
-    FILE *subor1 = fopen("subory/prvy.txt", "r");
-    FILE *subor2 = fopen("subory/druhy.txt", "r");
+    FILE *subor1 = fopen("../subory/prvy.txt", "r");
+    FILE *subor2 = fopen("../subory/druhy.txt", "r");
 
     if (subor1 == NULL || subor2 == NULL) {
         printf("Nepodarilo sa otvorit subory.\n");
@@ -171,8 +171,8 @@ void cv5() {
 void cv6()
 {
     printf("CVICENIE 6\n");
-    FILE *vstup = fopen("subory/vstup.txt", "r");
-    FILE *cisla = fopen("subory/cisla2.txt", "a");
+    FILE *vstup = fopen("../subory/vstup.txt", "r");
+    FILE *cisla = fopen("../subory/cisla2.txt", "a");
     if (vstup == NULL || cisla == NULL) {
         return 1;
     }
@@ -199,7 +199,7 @@ void cv6()
 
 void cv7() {
     printf("CVICENIE 7\n");
-    FILE *soubor = fopen("subory/text.txt", "r");
+    FILE *soubor = fopen("../subory/text.txt", "r");
 
     if (soubor == NULL) {
         printf("Nepodarilo sa otvorit subor.\n");

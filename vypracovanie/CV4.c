@@ -18,7 +18,7 @@ int cv1()
         return 1;
     }
 
-    FILE *subor = fopen("subory/floyd.txt", "w");
+    FILE *subor = fopen("../subory/floyd.txt", "w");
 
     int cislo = 1;
 
@@ -98,7 +98,7 @@ void bonuscv2()
         return;
     }
 
-    FILE *subor = fopen("subory/cisla.txt", "w");
+    FILE *subor = fopen("../subory/cisla.txt", "w");
     if (subor == NULL) {
         printf("Nepodarilo sa otvorit subor pre zapis.\n");
         return;
@@ -235,7 +235,7 @@ void bonuscv7()
                 }
             }
             if (x < s) {
-                printf(" "); // Toto robí medzeru medzi tvarmi
+                printf(" "); // Toto robï¿½ medzeru medzi tvarmi
             }
         }
         printf("\n");
@@ -245,7 +245,7 @@ int main()
 {
     cv1();
     clearbuffer();
-    cv2("subory/rozmery.txt");
+    cv2("../subory/rozmery.txt");
     clearbuffer();
     bonuscv1();
     clearbuffer();
