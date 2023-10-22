@@ -30,7 +30,7 @@ Ak ste študentom na cvičeniach a chcete začať pracovať s týmito materiálm
 
 Otvorte powershell:
    ```bash
-   cd C:/Users/Vase_meno_pouzivatela/Desktop
+   cd C:\Users\Vase_meno_pouzivatela\Desktop
    ```
 Zklonujete repozitár:   
    ```bash
