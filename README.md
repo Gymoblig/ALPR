@@ -28,10 +28,6 @@ Repositár je štruktúrovaný nasledovne:
 
 Ak ste študentom na cvičeniach a chcete začať pracovať s týmito materiálmi, môžete postupovať nasledovne:
 
-Otvorte powershell:
-   ```bash
-   cd C:\Users\Vase_meno_pouzivatela\Desktop
-   ```
-Zklonujete repozitár:   
+Otvorte powershell a zklonujete repozitár (alebo si ho stiahnite ako **.zip**):   
    ```bash
    git clone https://github.com/Gymoblig/ALPR.git
