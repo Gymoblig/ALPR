@@ -7,7 +7,7 @@ Vitajte v repozitári cvičení z Algoritmizácie a Programovania, ktoré sú ve
 - [O repozitári](#o-repozit%C3%A1ri)
 - [Štruktúra repozitára](#%C5%A1trukt%C3%BAra-repozit%C3%A1ra)
 - [Ako začať](#ako-za%C4%8Da%C5%A5)
-- [Príklady kódov](/Gymoblig/ALPR/tree/main/vypracovanie)
+- [Príklady kódov](Gymoblig/ALPR/tree/main/vypracovanie)
 
 ## O repozitári
 
