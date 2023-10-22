@@ -18,7 +18,7 @@ int cv1()
         return 1;
     }
 
-    FILE *subor = fopen("floyd.txt", "w");
+    FILE *subor = fopen("subory/floyd.txt", "w");
 
     int cislo = 1;
 
@@ -98,7 +98,7 @@ void bonuscv2()
         return;
     }
 
-    FILE *subor = fopen("cisla.txt", "w");
+    FILE *subor = fopen("subory/cisla.txt", "w");
     if (subor == NULL) {
         printf("Nepodarilo sa otvorit subor pre zapis.\n");
         return;
@@ -245,7 +245,7 @@ int main()
 {
     cv1();
     clearbuffer();
-    cv2("rozmery.txt");
+    cv2("subory/rozmery.txt");
     clearbuffer();
     bonuscv1();
     clearbuffer();
