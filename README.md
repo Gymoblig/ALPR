@@ -1,6 +1,6 @@
 # Cvičenia z Algoritmizácie a Programovania
 
-Vitajte v repozitári cvičení z Algoritmizácie a Programovania, ktoré sú vedené profesorom Grmanom. Tento repozitár obsahuje materiály a riešenia úloh pre cvičenia v jazyku C (samozrejme v mojom prevedení :P).
+Vitajte v repozitári cvičení z Algoritmizácie a Programovania, ktoré sú vedené **Mgr. Ján Grman, PhD.**. Tento repozitár obsahuje materiály a riešenia úloh pre cvičenia v jazyku C (samozrejme v mojom prevedení :P).
 
 ## Obsah
 
@@ -28,7 +28,6 @@ Repositár je štruktúrovaný nasledovne:
 
 Ak ste študentom na cvičeniach a chcete začať pracovať s týmito materiálmi, môžete postupovať nasledovne:
 
-Sklonujte si tento repozitár na svoj počítač:
-
+Otvorte powershell a zklonujete repozitár (alebo si ho stiahnite ako **.zip**):   
    ```bash
    git clone https://github.com/Gymoblig/ALPR.git
