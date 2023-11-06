@@ -51,6 +51,61 @@ char *sifruj_a_odsifruj(char *sprava, char *heslo, int sifrovat) {
     return sprava;
 }
 
+void bonuscv1() {
+    char retazec[100];
+    printf("Zadajte retazec: ");
+    scanf("%s", retazec);
+
+    int i, j = 0;
+
+    while (retazec[i] != '\0') {
+        if (retazec[i] == '*') {
+            printf("**");
+        } else if (retazec[i] != '.') {
+            printf("%c", retazec[i]);
+        }
+        i++;
+    }
+
+    printf("\n");
+}
+
+void bonuscv2() {
+    const char *inputFileName = "../subory/input.txt";
+    const char *outputFileName = "../subory/output.txt";
+
+    FILE *inputFile = fopen(inputFileName, "r");
+    if (inputFile == NULL) {
+        printf("Nepodarilo sa otvorit subor.\n");
+        return;
+    }
+
+    FILE *outputFile = fopen(outputFileName, "w");
+    if (outputFile == NULL) {
+        printf("Nepodarilo sa otvorit subor.\n");
+        fclose(inputFile);
+        return;
+    }
+
+    char line[100];
+    while (fgets(line, sizeof(line), inputFile) != NULL) {
+        int len = 0;
+        while (line[len] != '\0') {
+            len++;
+        }
+        for (int i = len - 2; i >= 0; i--) {
+            fputc(line[i], outputFile);
+        }
+        fputc('\n', outputFile);
+    }
+
+    fclose(inputFile);
+    fclose(outputFile);
+
+    printf("Subor s obratenymi riadkami bol vytvoreny.\n");
+}
+
+
 int main() {
     char sprava[100];
     char heslo[100];
@@ -74,5 +129,9 @@ int main() {
         printf("Subor ma znakov %d, pocet riadkov %d, medzier: %d a cisla %d\n", velkost, riadky, medzery, cisla);
     }
 
+
+
+    bonuscv1();
+    bonuscv2();
     return 0;
 }
