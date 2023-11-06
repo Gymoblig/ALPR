@@ -287,7 +287,7 @@ void cv10() {
     printf("\n");
 }
 int main() {
-    cv1();
+    /*cv1();
     clearbuffer();
     cv2();
     clearbuffer();
@@ -302,10 +302,10 @@ int main() {
     cv7();
     clearbuffer();
     cv8();
-    clearbuffer();
+    clearbuffer();*/
     cv9();
-    clearbuffer();
+    /*clearbuffer();
     cv10();
-    clearbuffer();
+    clearbuffer();*/
     return 0;
 }
