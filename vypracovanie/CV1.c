@@ -7,6 +7,9 @@ int cvicenie1()
     printf("Mas 100%% pravdu. \n/ a \\ su rozdielne znaky.\nZnak \" je problematicky!\n");
 }
 
+
+
+
 int cvicenie2()
 {
     int cislo1;
