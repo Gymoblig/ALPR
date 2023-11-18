@@ -91,6 +91,9 @@ int NajdiMax(int **pole, int riadky, int stlpce, int *max_riadok, int *max_stlpe
         }
     }
 
+    *max_riadok += 1; // Zvysenie suradnic o 1 (indexy v C zacinaju od 0)!!!!
+    *max_stlpec += 1;
+
     return max;
 }
 
